@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://vestimir.com/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://vestimir.com/blog/:path*",
+      "permanent": true
+    }
+  ]
+}
